@@ -9,20 +9,10 @@
 	<packaging>jar</packaging>
 	
 	<!-- 
-	
 		Para deploy direto em um webserver (tomcat, jetty etc) 
 		modifique o tipo de empacotamento para war
-		
+
 		<packaging>war</packaging> 
-		
-		Também é necessário adicionar a dependencia do tomcat (como provided) 
-		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		
 	-->
 
 	<name>spring-boot-demo</name>
@@ -57,7 +47,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -68,6 +57,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>		
 	</dependencies>
 	
 	<build>
