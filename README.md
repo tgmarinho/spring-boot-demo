@@ -7,7 +7,7 @@ Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton
 
 ## Compile, execute e valide o ambiente 
 
-para compilar (é necessário instalar o [Maven3](https://maven.apache.org/download.cgi)):
+para compilar e gerar o pacote (é necessário instalar o [Maven3](https://maven.apache.org/download.cgi)):
 
 ```mvn clean package``` 
 
