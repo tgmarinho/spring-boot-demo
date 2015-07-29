@@ -2,12 +2,13 @@
 
 para compilar (é necessário instalar o Maven3)
 
-```
-mvn clean package
-``` 
+```mvn clean package``` 
 
 para executar
 
-```java -jar java -jar demo-0.0.1-SNAPSHOT.war```
+```java -jar demo-0.0.1-SNAPSHOT.war```
 
+para verificar o ambiente
+
+```http://localhost:8080/health```
 
