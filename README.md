@@ -1,6 +1,6 @@
 # spring-boot-demo
 
-## [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki)
+## [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki/Spring-Boot-Demo)
 
 Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton). Uma aplicação modelo para iniciar o desenvolvimento de microserviços com Spring Boot.
 
