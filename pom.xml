@@ -6,14 +6,7 @@
 	<groupId>org.test</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-	
-	<!-- 
-		Para deploy direto em um webserver (tomcat, jetty etc) 
-		modifique o tipo de empacotamento para war
-
-		<packaging>war</packaging> 
-	-->
+	<packaging>war</packaging>
 
 	<name>spring-boot-demo</name>
 	<description>Demo project for Spring Boot</description>
