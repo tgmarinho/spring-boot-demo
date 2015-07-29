@@ -2,7 +2,7 @@
 
 ## [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki/Spring-Boot-Demo)
 
-Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton). Uma aplicação modelo para iniciar o desenvolvimento de microserviços com Spring Boot.
+Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton). Uma aplicação modelo para iniciar o desenvolvimento de microserviços com Spring Boot. A documentação dos componentes do projeto está disponível no [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki/Spring-Boot-Demo).
 
 
 ## Compile, execute e valide o ambiente 
@@ -17,5 +17,5 @@ para executar:
 
 para validar o ambiente:
 
-[local health check](http://localhost:8080/health)
+[http://localhost:8080/health]
 
