@@ -5,7 +5,7 @@
 Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton). Uma aplicação modelo para iniciar o desenvolvimento de microserviços com Spring Boot.
 
 
-## compile, execute e valide o ambiente 
+## Compile, execute e valide o ambiente 
 
 para compilar (é necessário instalar o [Maven3](https://maven.apache.org/download.cgi)):
 
@@ -15,7 +15,7 @@ para executar:
 
 ```java -jar target/demo-0.0.1-SNAPSHOT.war```
 
-para verificar o ambiente:
+para validar o ambiente:
 
 [local health check](http://localhost:8080/health)
 
