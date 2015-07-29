@@ -17,5 +17,5 @@ para executar:
 
 para validar o ambiente:
 
-[http://localhost:8080/health]
+[http://localhost:8080/health](http://localhost:8080/health)
 
