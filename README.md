@@ -1,13 +1,13 @@
 # spring-boot-demo
 
-## [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki/Spring-Boot-Demo)
+## [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki)
 
-Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton). Uma aplicação modelo para iniciar o desenvolvimento de microserviços com Spring Boot. A documentação dos componentes do projeto está disponível no [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki/Spring-Boot-Demo).
+Spring boot demo é um [walking skeleton](http://c2.com/cgi/wiki?WalkingSkeleton). Uma aplicação modelo para iniciar o desenvolvimento de microserviços com Spring Boot. A documentação dos componentes do projeto está disponível no [Wiki](https://github.com/wanderleisouza/spring-boot-demo/wiki).
 
 
 ## Compile, execute e valide o ambiente 
 
-para compilar (é necessário instalar o [Maven3](https://maven.apache.org/download.cgi)):
+para compilar e gerar o pacote (é necessário instalar o [Maven3](https://maven.apache.org/download.cgi)):
 
 ```mvn clean package``` 
 
