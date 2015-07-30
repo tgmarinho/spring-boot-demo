@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 import demo.config.ConfigurationProjectProperties;
 
 @RestController
-public class ConfigController {
+public class ConfigurationController {
 
 	@Inject
 	ConfigurationProjectProperties configurationProjectProperties;
 	
-	@RequestMapping("/config") 
+	@RequestMapping("/configuration") 
 	public String getAppName() {
 		return configurationProjectProperties.getProjectName();
 	}
