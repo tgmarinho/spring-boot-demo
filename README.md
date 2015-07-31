@@ -19,3 +19,6 @@ para validar o ambiente:
 
 [http://localhost:8080/health](http://localhost:8080/health)
 
+## IDE Suporte
+
+Para utilizar esse projeto em uma IDE (Eclipse, etc) você precisará instalar o jar do projeto [project Lombok](http://projectlombok.org/features/index.html). Basicamente um duplo clique no jar do Lombok resolverá. Para mais detalhes, veja a documentação completa no site do Lombok. Se a instalação do Lombok não funcionou você verá muitos erros de compilação apontando métodos e atributos ausentes.
