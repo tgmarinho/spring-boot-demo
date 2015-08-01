@@ -2,6 +2,8 @@
 .classpath
 .project
 .settings/
+.factorypath
+/.apt_generated/
 
 # Intellij
 .idea/
@@ -14,4 +16,4 @@
 # Maven
 log/
 target/
-/.apt_generated/
+
