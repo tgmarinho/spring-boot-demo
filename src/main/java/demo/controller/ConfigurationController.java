@@ -14,7 +14,7 @@ public class ConfigurationController {
 	ConfigurationProjectProperties configurationProjectProperties;
 	
 	@RequestMapping("/configuration") 
-	public String getAppName() {
+	public String getConfiguration() {
 		return configurationProjectProperties.getProjectName();
 	}
 	
