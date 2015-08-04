@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilde
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Service;
 
-import domain.Car;
+import demo.domain.Car;
 
 @Service
 public class CarSearchService {

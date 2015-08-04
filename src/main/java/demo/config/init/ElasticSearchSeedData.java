@@ -2,10 +2,12 @@ package demo.config.init;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+import demo.domain.Car;
 import demo.repository.CarRepository;
-import domain.Car;
 
+@Configuration
 public class ElasticSearchSeedData {
 
     @Bean

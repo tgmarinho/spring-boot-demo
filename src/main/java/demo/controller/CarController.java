@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import demo.domain.Car;
 import demo.service.CarSearchService;
-import domain.Car;
 
 @RestController
 @RequestMapping(VERSION + "/cars")
