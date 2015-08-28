@@ -13,11 +13,16 @@ para compilar e gerar o pacote (é necessário instalar o [Maven3](https://maven
 
 para executar:
 
+para validar o ambiente:
 ```java -jar target/demo-0.0.1-SNAPSHOT.war```
 
-para validar o ambiente:
 
 [http://localhost:8080/health](http://localhost:8080/health)
+
+## Exemplos
+
+```curl -u my-client-with-secret:secret -d "grant_type=client_credentials" http://localhost:8080/oauth/token
+```curl -H "Authorization: Bearer <COLE_AQUI_SEU_ACCESS_TOKEN>" http://localhost:8080/v1/cars?q=ronda
 
 ## IDE Suporte
 

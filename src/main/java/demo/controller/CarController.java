@@ -18,7 +18,7 @@ public class CarController {
 	@Inject
 	CarSearchService service;
 	
-	@RequestMapping()
+	@RequestMapping
 	public Iterable<Car> getCarsByQuery(@RequestParam(value = "q") String q) {
 		return service.search("make", q);
 	}
