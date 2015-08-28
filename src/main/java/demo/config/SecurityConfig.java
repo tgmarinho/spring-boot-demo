@@ -13,23 +13,15 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
-import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @SpringBootApplication
 @EnableResourceServer
 public class SecurityConfig extends WebMvcConfigurerAdapter {
 
-	private static final String RESOURCE_ID = "blz_resource";
-	
     @Configuration
     @EnableResourceServer
     protected static class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
-
-        @Override
-        public void configure(ResourceServerSecurityConfigurer resources) {
-            resources.resourceId(RESOURCE_ID);
-        }
 
         @Override
         public void configure(HttpSecurity http) throws Exception {
@@ -59,7 +51,6 @@ public class SecurityConfig extends WebMvcConfigurerAdapter {
 	            .authorizedGrantTypes("authorization_code")
 	            .authorities("ROLE_CLIENT")
 	            .scopes("read", "trust")
-	            .resourceIds(RESOURCE_ID)
 	            .redirectUris("http://anywhere?key=value")
 	            .secret("secret123")
             .and()
@@ -67,7 +58,6 @@ public class SecurityConfig extends WebMvcConfigurerAdapter {
 	            .authorizedGrantTypes("client_credentials", "password")
 	            .authorities("ROLE_CLIENT")
 	            .scopes("read")
-	            .resourceIds(RESOURCE_ID)
 	            .secret("secret");
        } 
 
